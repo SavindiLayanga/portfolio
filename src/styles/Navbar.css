@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 10px 20px;
+    position: fixed; /* Make it fixed */
+    top: 0; /* Stay at the top */
+    width: 100%;
+    z-index: 1000; /* Ensure it appears on top of other content */
+    transition: top 0.3s; /* Smooth transition */
+}
+
+.navbar-logo .logo {
+    height: 60px;
+}
+
+.navbar-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-menu ul li {
+    margin: 0 15px;
+}
+
+.navbar-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Add some padding to the body to account for the navbar height */
+body {
+    padding-top: 80px;
+}
