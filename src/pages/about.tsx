@@ -6,12 +6,16 @@ const AboutSection: React.FC = () => {
         <div className="bg-white py-16 px-8" id="about">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                    <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                        With a passion for design and a keen interest in Front-End Engineering.
-                    </h2>
+                    <h2 className="text-2xl font-bold text-red-600 mb-6">About Me</h2>
+                    <h2 className="text-6xl font-bold text-gray-900 mb-6">Who Am I ?</h2>
+                    <p className="text-gray-500" style={{fontSize: '20px', fontFamily: 'Arial, sans-serif'}}>I am a
+                        Front End Developer</p>
+                    <br/>
+
                     <p className="text-gray-600">
                         Savindi is currently studying at Panadura Institute of Software Engineering (IJSE) and is
-                        committed to improving her skills and knowledge in the field. Has a strong foundation in HTML,
+                        committed to improving her skills and knowledge in the field. Has a strong foundation in
+                        HTML,
                         CSS, and JavaScript, and is particularly adept at bringing design concepts to life with
                         precision and creativity. I have a good knowledge of Java, and the real passion lies in the
                         design aspects of software development rather than the back-end parts.
@@ -23,8 +27,10 @@ const AboutSection: React.FC = () => {
                     </p>
                     <br/>
                     <p className="text-gray-600">
-                        I am known for her innovative approach to design and her commitment to creating seamless user
-                        experiences. She continuously explores new technologies and best practices to stay ahead of the
+                        I am known for her innovative approach to design and her commitment to creating seamless
+                        user
+                        experiences. She continuously explores new technologies and best practices to stay ahead of
+                        the
                         fast-evolving field of web development.
                     </p>
                 </div>
