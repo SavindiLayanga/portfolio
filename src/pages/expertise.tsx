@@ -2,7 +2,7 @@ import React from 'react';
 
 const NumberedCards: React.FC = () => {
     const cardContent = [
-        { number: '01', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos earum enim fuga in.' },
+        { number: '01', text: ' I chose to design a system for Matara Kumaratgunga Munidasa Public Library as the final project of my software engineering first semester. I created it using mvc architecture.' },
         { number: '02', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos earum enim fuga in.' },
         { number: '03', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos earum enim fuga in.' },
         { number: '04', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos earum enim fuga in.' },
@@ -12,6 +12,10 @@ const NumberedCards: React.FC = () => {
 
     return (
         <div className="bg-[#F6F6F6] py-12" id="expertise">
+            <h2 className="text-2xl font-bold text-red-600 mb-6 ml-[10%]">Expertise</h2>
+            <h2 className="text-6xl font-bold text-gray-900 mb-6 ml-[10%]">What have I done?</h2>
+            <br/>
+            <br/>
             <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
                 {cardContent.map((card, index) => (
                     <div
