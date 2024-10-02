@@ -23,12 +23,14 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <div
-            className="min-h-screen flex items-center justify-center bg-cover bg-center bg-fixed"
-            id="contact"
-            style={{backgroundImage: 'url("https://yourimageurl.com")'}}>
+        <div className="min-h-screen flex items-center justify-center bg-cover bg-center bg-fixed" id="contact">
+            <div className="ml-[10%]">
+                <h2 className="text-2xl font-bold text-red-600 mb-4"> Contact Me</h2>
+                <h2 className="text-6xl font-bold text-gray-900 mb-4">Do you <br/> want to contact <br/> me?</h2>
+            </div>
+            <br/> <br/>
 
-            <div className="bg-white rounded-lg shadow-md w-full max-w-6xl flex">
+            <div className=" rounded-lg shadow-md w-full max-w-6xl flex bg-gray-100 mr-8" >
                 {/* Left side: Contact Form */}
                 <div className="w-full md:w-1/2 p-8">
                     <form onSubmit={handleSubmit} className="space-y-6">
@@ -98,8 +100,7 @@ const Contact: React.FC = () => {
                         <div>
                             <button
                                 type="submit"
-                                className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700"
-                            >
+                                className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
                                 Send Message
                             </button>
                         </div>
@@ -107,15 +108,17 @@ const Contact: React.FC = () => {
                 </div>
 
                 {/* Right side: Contact Information */}
-                <div className="w-full md:w-1/2 bg-blue-900 text-white p-8">
-                    <h3 className="text-lg font-semibold">Contact Information</h3>
+                <div className="w-full md:w-1/2 bg-transparent-900 text-red-950 p-8">
+                    <h3 className="text-lg font-semibold"><u> Contact Information </u></h3>
                     <p className="mt-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestias, magnam!
+                        If you could touch my creative mind , <br/>
+                        I’m always open to discussing new projects, creative ideas and designs to be part of your vision
+                        ...
                     </p>
                     <div className="mt-4">
-                        <p>9757 Aspen Lane South Richmond Hill, NY 11419</p>
-                        <p className="mt-2">+1 (291) 939 9321</p>
-                        <p className="mt-2">info@mywebsite.com</p>
+                        <p>Matara, Sri Lanka</p>
+                        <p className="mt-2"> +94 77 618 3770</p>
+                        <p className="mt-2">savindilayanga@gmail.com</p>
                     </div>
                 </div>
             </div>
