@@ -6,6 +6,7 @@ import About from "./pages/about.tsx";
 import Skills from "./pages/skills.tsx";
 import Expertise from "./pages/expertise.tsx";
 import Contact from "./pages/contact.tsx";
+import Service from "./pages/service.tsx";
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <About/>
           <Skills/>
           <Expertise/>
+          <Service/>
           <Contact/>
       </div>
   )

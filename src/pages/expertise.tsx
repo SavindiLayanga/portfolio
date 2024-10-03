@@ -12,7 +12,7 @@ const NumberedCards: React.FC = () => {
 
     return (
         <div className="bg-[#F6F6F6] py-12" id="expertise">
-            <h2 className="text-2xl font-bold text-red-600 mb-6 ml-[10%]">Expertise</h2>
+            <h2 className="text-2xl font-bold text-orange-500 mb-6 ml-[10%]">Expertise</h2>
             <h2 className="text-6xl font-bold text-gray-900 mb-6 ml-[10%]">What have I done?</h2>
             <br/>
             <br/>
